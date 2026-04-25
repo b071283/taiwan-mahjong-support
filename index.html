@@ -1,0 +1,137 @@
+hello
+world<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>台灣麻將 - 支援中心 | 天遊數位科技</title>
+<meta name="description" content="台灣麻將 App 官方支援頁面。常見問題、聯絡方式、版本資訊。" />
+<style>
+  :root{
+    --bg:#0f1115;
+    --surface:#161a22;
+    --surface-2:#1f242e;
+    --text:#e8eaed;
+    --muted:#9aa0a6;
+    --accent:#d4a017;
+    --accent-2:#e8b923;
+    --border:#2a3140;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent-2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 24px 64px}
+  header{text-align:center;padding:32px 0 40px;border-bottom:1px solid var(--border);margin-bottom:40px}
+  .logo{font-size:48px;margin-bottom:12px}
+  h1{font-size:28px;font-weight:700;margin-bottom:8px;letter-spacing:.5px}
+  .tagline{color:var(--muted);font-size:15px}
+  nav{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:20px}
+  nav a{padding:6px 14px;background:var(--surface);border:1px solid var(--border);border-radius:999px;font-size:13px;color:var(--text)}
+  nav a:hover{background:var(--surface-2);text-decoration:none;border-color:var(--accent)}
+  section{margin-bottom:40px}
+  h2{font-size:20px;font-weight:600;margin-bottom:16px;color:var(--accent-2);border-left:3px solid var(--accent);padding-left:12px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin-bottom:12px}
+  .faq-q{font-weight:600;margin-bottom:8px;color:var(--text)}
+  .faq-a{color:#c4c8cd;font-size:14.5px}
+  .info-grid{display:grid;grid-template-columns:140px 1fr;gap:12px 16px;font-size:14.5px}
+  .info-grid .label{color:var(--muted)}
+  .info-grid .value{color:var(--text);word-break:break-all}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding-top:32px;border-top:1px solid var(--border);margin-top:48px}
+  footer a{color:var(--muted)}
+  @media (max-width:520px){
+    .wrap{padding:24px 16px 48px}
+    h1{font-size:22px}
+    .info-grid{grid-template-columns:1fr;gap:4px 0}
+    .info-grid .label{margin-top:8px}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">🀄</div>
+      <h1>台灣麻將 支援中心</h1>
+      <p class="tagline">天遊數位科技有限公司 · 官方支援頁面</p>
+      <nav>
+        <a href="#faq">常見問題</a>
+        <a href="#contact">聯絡我們</a>
+        <a href="#about">關於本 App</a>
+        <a href="privacy.html">隱私權政策</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>關於台灣麻將</h2>
+      <div class="card">
+        <p>「台灣麻將」是一款還原台灣傳統 16 張規則的麻將遊戲，提供流暢的單機體驗、智慧 AI 對手與精緻牌桌畫面。無論是麻將老手還是想學牌的新手，都能輕鬆上手，隨時來一局重溫經典台味牌局。</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>常見問題</h2>
+
+      <div class="card">
+        <div class="faq-q">Q1. App 開啟後當機或無法進入怎麼辦？</div>
+        <div class="faq-a">請先嘗試完全關閉 App 後重新開啟。若問題仍未解決，請將裝置重新啟動，或在 App Store 確認您已更新到最新版本。問題持續可透過下方聯絡信箱回報。</div>
+      </div>
+
+      <div class="card">
+        <div class="faq-q">Q2. 為什麼遊戲沒有聲音？</div>
+        <div class="faq-a">請確認裝置音量未調至靜音、靜音模式已關閉，並檢查 App 內設定中的音效與背景音樂選項是否開啟。</div>
+      </div>
+
+      <div class="card">
+        <div class="faq-q">Q3. 我的進度可以跨裝置同步嗎？</div>
+        <div class="faq-a">本 App 為單機遊戲，遊戲記錄保存於裝置本機。若您更換裝置或解除安裝後重新安裝，遊戲進度將無法保留。</div>
+      </div>
+
+      <div class="card">
+        <div class="faq-q">Q4. 為什麼某種牌型沒有被判定為胡牌？</div>
+        <div class="faq-a">本 App 採用台灣傳統 16 張麻將規則，需湊滿 5 組面子（順、刻、槓）加 1 組對子（眼）共 17 張牌，並需有最低台數限制。若您認為判定有誤，歡迎來信告知具體牌型。</div>
+      </div>
+
+      <div class="card">
+        <div class="faq-q">Q5. 如何刪除遊戲資料？</div>
+        <div class="faq-a">於裝置上長按 App 圖示後選擇「刪除 App」，或於「設定 → 一般 → iPhone 儲存空間」中選擇本 App 移除。刪除後，所有本機遊戲資料將一併清除。</div>
+      </div>
+
+      <div class="card">
+        <div class="faq-q">Q6. 我有功能建議或意見回饋，要怎麼提供？</div>
+        <div class="faq-a">非常歡迎！請透過下方聯絡信箱來信，我們會認真評估每一份使用者回饋，並在後續版本中持續改進。</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>聯絡我們</h2>
+      <div class="card">
+        <p style="margin-bottom:16px;color:#c4c8cd;font-size:14.5px">如有任何問題、建議或合作邀約，歡迎透過以下方式與我們聯繫：</p>
+        <div class="info-grid">
+          <div class="label">公司名稱</div>
+          <div class="value">天遊數位科技有限公司</div>
+
+          <div class="label">代表人</div>
+          <div class="value">李俊毅</div>
+
+          <div class="label">統一編號</div>
+          <div class="value">90543119</div>
+
+          <div class="label">電子郵件</div>
+          <div class="value"><a href="mailto:deepspaceth@gmail.com">deepspaceth@gmail.com</a></div>
+
+          <div class="label">聯絡電話</div>
+          <div class="value">0972-060-769</div>
+
+          <div class="label">營業所地址</div>
+          <div class="value">臺北市中正區北平東路 20 號 9 樓</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 天遊數位科技有限公司 Skygames Digital CO., LTD. 保留一切權利。</p>
+      <p style="margin-top:8px"><a href="privacy.html">隱私權政策</a></p>
+    </footer>
+  </div>
+</body>
+</html>
